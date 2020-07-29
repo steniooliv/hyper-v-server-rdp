@@ -1,4 +1,4 @@
-# Enable Management Hyper-V Server 2019 on RDP
+# Enable RDP on Hyper-V Server 2019
 
 - Run above command on Hyper-V Server Powershell command line:
   - Get Network interface information
