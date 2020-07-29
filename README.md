@@ -10,10 +10,10 @@
 
 - Run again in Powershell command line:
   - Now set exception on firewall
-    - `netsh.exe advfirewall firewall add rule name-"ICMP ECHOREQUEST" dir-in protocol-icmpv4 action-allow`
+    - `netsh.exe advfirewall firewall add rule name="ICMP ECHOREQUEST" dir=in protocol=icmpv4 action=allow`
     
 
 
 
 ### For block this rule and disable RDP, change the Remote Desktop option to (D)isable, and run the command line above on Powershell:
-  - `netsh.exe advfirewall firewall add rule name-"ICMP ECHOREQUEST" dir-in protocol-icmpv4 action-block`
+  - `netsh.exe advfirewall firewall add rule name="ICMP ECHOREQUEST" dir=in protocol=icmpv4 action=block`
