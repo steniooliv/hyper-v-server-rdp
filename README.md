@@ -2,9 +2,9 @@
 
 - Run above command on Hyper-V Server Powershell command line:
   - Get Network interface information
-    - `Get NetConnectionProfile`
+    - `Get-NetConnectionProfile`
   - Set Network interface Private, change number of InterfaceIndex
-    - `Get NetConnectionProfile -InterfaceIndex 6 -NetworkCategory Private`
+    - `Set-NetConnectionProfile -InterfaceIndex 6 -NetworkCategory Private`
     
 - On SConfig.cmd go on option 7 and (E)nable the Remote Desktop for all connections
 
